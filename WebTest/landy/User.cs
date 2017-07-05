@@ -19,8 +19,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 //这里加个注释！ modify by pengyou
-
-
 namespace WebTest.landy
 {
     public class User
