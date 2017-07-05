@@ -47,6 +47,7 @@ namespace WebTest.landy
         // Qualifier:
         //************************************
         public String getUserName() {
+            //加入一点注释吧！！！！！by landy
             return this.userName;
         }
     }
