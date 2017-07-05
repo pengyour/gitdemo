@@ -12,7 +12,7 @@ namespace WebTest
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-
+            Console.WriteLine("你能找到我动了这里吗？");
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
