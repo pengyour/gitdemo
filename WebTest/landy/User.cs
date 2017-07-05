@@ -28,6 +28,8 @@ namespace WebTest.landy
         {
             this.userName = userName;
         }
-
+        public String getUserName() {
+            return this.userName;
+        }
     }
 }
