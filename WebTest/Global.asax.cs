@@ -16,6 +16,7 @@ namespace WebTest
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            //这里的注释要删除！ modify by pengyou 2-2之-2
         }
     }
 }

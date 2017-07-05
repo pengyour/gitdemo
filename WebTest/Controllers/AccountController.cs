@@ -18,6 +18,14 @@ namespace WebTest.Controllers
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
+        //************************************
+        // Method:    AccountController
+        // FullName:  WebTest.Controllers.AccountController.AccountController
+        // Access:     public 
+        //这里的注释要删除！ modify by pengyou 2-2之-3   
+        // Returns:   
+        // Qualifier:
+        //************************************
         public AccountController()
         {
         }
