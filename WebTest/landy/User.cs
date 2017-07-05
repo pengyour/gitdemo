@@ -18,16 +18,34 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+//这里加个注释！ modify by pengyou
 namespace WebTest.landy
 {
     public class User
     {
         private String userName;
 
+        //************************************
+        // Method:    User
+        // FullName:  WebTest.landy.User.User
+        // Access:     public 
+
+        // Returns:   
+        // Qualifier:
+        // Parameter: String userName
+        //************************************
         public User(String userName)
         {
             this.userName = userName;
         }
+        //************************************
+        // Method:    getUserName
+        // FullName:  WebTest.landy.User.getUserName
+        // Access:     public 
+                      
+        // Returns:   System.String
+        // Qualifier:
+        //************************************
         public String getUserName() {
             return this.userName;
         }
